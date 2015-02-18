@@ -67,6 +67,7 @@ p {
 
 #name {
 	float: left;
+	color: #484242;
 }
 
 #contactDetails {
@@ -81,11 +82,11 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #444;
+	color: #0b6dbe;
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #444; 
+	color: #0b6dbe; 
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -95,7 +96,7 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: #cf8a05;
+	color: #484242;
 }
 
 
