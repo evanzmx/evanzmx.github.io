@@ -360,3 +360,22 @@ section:last-child {
 	-moz-animation-delay: 0, 2.5s;
 	animation-delay: 0, 2.5s;
 }
+
+/* CSS modified */
+.portafolio {
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.portafolio li {
+    display: block;
+    float: left;
+    line-height: 2em;
+    width: 100%;
+}
+.portafolio li a {
+    color: #484242;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.portafolio li a:hover {color:#015da0;}
