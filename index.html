@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Oscar Cruz Arellano - Curriculum Vitae</title>
-
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="Oscar Cruz Curriculum Vitae"/>
-<meta charset="UTF-8"> 
-
-<link type="text/css" rel="stylesheet" href="css/style1.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+    <title>Oscar Cruz Arellano - Curriculum Vitae</title>
+    
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="Oscar Cruz Curriculum Vitae"/>
+    <meta charset="UTF-8"> 
+    
+    <link type="text/css" rel="stylesheet" href="css/style1.css">
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body id="top">
 <div id="cv" class="instaFade">
+    <button class="btn" id="btnlang" type="button"></button>
 	<div class="mainDetails">
 		<div id="headshot" class="quickFade">
 			<img src="OscarCruz.jpg" alt="Oscar Cruz Arellano" />
@@ -23,7 +26,7 @@
 		
 		<div id="name">
 			<h1 class="quickFade delayTwo">Oscar Cruz Arellano</h1>
-			<h2 class="quickFade delayThree">Desarrollador Web</h2>
+			<h2 class="quickFade delayThree" id="occupation"></h2>
 		</div>
 		
 		<div id="contactDetails" class="quickFade delayFour">
@@ -40,11 +43,11 @@
 		<section>
 			<article>
 				<div class="sectionTitle">
-					<h1>Perfil</h1>
+					<h1 id="profile"></h1>
 				</div>
 				
 				<div class="sectionContent">
-					<p>Soy un desarrollador web que disfruta mucho su trabajo, en los 5 años de experiecia que tengo he aprendido algunas tecnicas y frameworks que me han ayudado a desarrollar sitios web tanto comerciales como administrativos.</p>
+					<p id="profile_text"></p>
 				</div>
 			</article>
 			<div class="clear"></div>
@@ -53,32 +56,32 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Experiencia</h1>
+				<h1 id="experience"></h1>
 			</div>
 			
 			<div class="sectionContent">
 				<article>
-					<h2>Huawei Technologies de Mexico</h2>
-					<p class="subDetails">April 2014 - Presente</p>
-					<p>Mis principales activdades consisten en administrar los servicios y sistemas de OSS de Huawei, realizar mantenimientos preventivos a los servidores, dar soporte e instalar actualizaciones a los sistemas OSS de Huawei, así como tareas varías de administración del proyecto.</p>
+					<h2 id="job4"></h2>
+					<p class="subDetails" id="date4"></p>
+					<p id="jobdesc4"></p>
 				</article>
 				
 				<article>
-					<h2>Grupo Jobomas</h2>
-					<p class="subDetails">Diciembre 2013 - Abril 2014</p>
-					<p>Mis tareas eran la indexación de sitios mediante web crawlers para los sitios de Grupo Jobo, así como desarrollador backend y frontend de los sitios <a href="http://mercadojobs.com">mercadojobs.com</a>, <a href="http://casifree.com">casifree.com</a> y un sistema de administración para mercadojobs.com.</p>
+					<h2 id="job3"></h2>
+					<p class="subDetails" id="date3"></p>
+					<p id="jobdesc3"></p>
 				</article>
 				
 				<article>
-					<h2>Caribephoto</h2>
-					<p class="subDetails">Septiembre 2011 - Octubre 2013</p>
-					<p>Durante mi estancia en Caribephoto contribuí con desarrollos de administración de caribephoto, desarrollos comerciales para el grupo Karisma, diseño y desarrollo de los sitios <a href="http://caribephoto.com">caribephoto.com</a> y <a href="http://matiascano.com">matiascano.com</a>, así como como desarrollo de aplicaciones de escritorio y configuración de servidores Linux.</p>
+					<h2 id="job2"></h2>
+					<p class="subDetails" id="date2"></p>
+					<p id="jobdesc2"></p>
 				</article>
 
 				<article>
-					<h2>TopMexicoRealEstate</h2>
-					<p class="subDetails">Agosto 2009 - Septiembre 2011</p>
-					<p>Estuve encargado de realizar tareas de optimización SEO para el sitio <a href="http://topmexicorealestate.com">TopMexicoRealEsate</a> y de verificar su posicionamiento en los principales motores de busqueda, despues pase a diseñar algunos banners publicitarios y landing pages de proyectos de la empresa, finalmente pase al area de desarrollo para programar algunos modulos de los sitios de Top Mexico Real Estate.</p>
+					<h2 id="job1"></h2>
+					<p class="subDetails" id="date1"></p>
+					<p id="jobdesc1"></p>
 				</article>
 			</div>
 			<div class="clear"></div>
@@ -87,7 +90,7 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Conocimientos</h1>
+				<h1 id="skills"></h1>
 			</div>
 			
 			<div class="sectionContent">
@@ -120,8 +123,8 @@
 			<div class="sectionContent">
 				<article>
 					<h2>Universidad Tecnologíca de la Riviera Maya</h2>
-					<p class="subDetails">Ing. Tecnologías de la Información y Telecomunicaciones</p>
-					<p>Graduado de la Universidad Tecnológica de la Riviera Maya en 2010 con las certificaciones Cisco CNNA1 - CNNA2</p>
+					<p class="subDetails" id="degree"></p>
+					<p id="grad"></p>
 				</article>
 			</div>
 			<div class="clear"></div>
@@ -129,13 +132,13 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Idiomas</h1>
+				<h1 id="languajes"></h1>
 			</div>
 			
 			<div class="sectionContent">
 				<ul class="keySkills">
-				    <li>Español - Nativa</li>
-				    <li>Ingles - 75%</li>
+				    <li id="spanish"></li>
+				    <li id="english"></li>
 				    <li>&nbsp;</li>
 				</ul>
 			</div>
@@ -149,7 +152,7 @@
 			
 			<div class="sectionContent">
 				<article>
-				    <p>En el listado de abajo podrán observar algunos de los trabajos que he realizado en mis diferentes empleos.</p>
+				    <p id="mywork"></p>
 				    <ul class="portafolio">
 				        <li><a href="http://mercadojobs.com">Mercadojobs</a></li>
 				        <li><a href="http://casifree.com">Casifree</a></li>

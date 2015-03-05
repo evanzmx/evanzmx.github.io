@@ -379,3 +379,18 @@ section:last-child {
     text-decoration: none;
 }
 .portafolio li a:hover {color:#015da0;}
+
+.btn{
+   color: #484242;
+    position: fixed;
+    background: #ededed;
+    border: 0;
+    padding: 6px 10px 3px 10px;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    margin: 23px 0 0 -50px;
+    font-weight: bold;
+    cursor: pointer;
+    width:51px;
+    text-align:center;
+}
