@@ -1,198 +1,110 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Oscar Cruz Arellano - Curriculum Vitae</title>
-	<!-- some comment -->    
-    <meta name="viewport" content="width=device-width"/>
-    <meta name="description" content="Oscar Cruz Curriculum Vitae"/>
-    <meta charset="UTF-8"> 
-    
-    <link type="text/css" rel="stylesheet" href="css/style1.css">
-    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-    
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- test desde git en koding -->
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body id="top">
-<div id="cv" class="instaFade">
-    <button class="btn" id="btnlang" type="button"></button>
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="OscarCruz.jpg" alt="Oscar Cruz Arellano" />
-		</div>
-		
-		<div id="name">
-			<h1 class="quickFade delayTwo">Oscar Cruz Arellano</h1>
-			<h2 class="quickFade delayThree" id="occupation"></h2>
-		</div>
-		
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>e: <a href="mailto:cruz.arellano.oscar@gmail.com" target="_blank">cruz.arellano.oscar@gmail.com</a></li>
-				<li>e: <a href="mailto:cruz.arellano.oscar@outlook.com" target="_blank">cruz.arellano.oscar@outlook.com</a></li>
-				<li>m: </li>
-				<li>w: <a href="http://evanzmx.github.io">http://evanzmx.github.io</a></li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-	
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1 id="profile"></h1>
-				</div>
-				
-				<div class="sectionContent">
-					<p id="profile_text"></p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1 id="experience"></h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-                                        <h2 id="job5"></h2>
-                                        <p class="subDetails" id="date5"></p>
-                                        <p id="jobdesc5"></p>
-                                </article>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 
-				<article>
-					<h2 id="job4"></h2>
-					<p class="subDetails" id="date4"></p>
-					<p id="jobdesc4"></p>
-				</article>
-				
-				<article>
-					<h2 id="job3"></h2>
-					<p class="subDetails" id="date3"></p>
-					<p id="jobdesc3"></p>
-				</article>
-				
-				<article>
-					<h2 id="job2"></h2>
-					<p class="subDetails" id="date2"></p>
-					<p id="jobdesc2"></p>
-				</article>
+<title>Oscar Cruz - Web Developer</title> 
 
-				<article>
-					<h2 id="job1"></h2>
-					<p class="subDetails" id="date1"></p>
-					<p id="jobdesc1"></p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/jquery.subscribe.js"></script>
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+</head> 
+ 
+<body> 
+	<div id="wrapper">
+	    <!--
+		<header>
+			<a class="logo" href="index.html"><img src="images/logo.png" alt="logo" title="logo" /></a>
+		</header>
+		-->
 		
+		<div id="book">		
 		
-		<section>
-			<div class="sectionTitle">
-				<h1 id="skills"></h1>
-			</div>
+			<!--<div id="ribbon" class="contact">click me to reveal the contact form</div>		-->
+			<div class="top-page"></div>
 			
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>PHP</li>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>Javascript</li>
-					<li>jQuery</li>
-					<li>Bootstrap</li>
-					<li>Yii</li>
-					<li>ASPX</li>
-					<li>C#</li>
-					<li>Python</li>
-					<li>ActionScript</li>
-					<li>MySQL</li>
-					<li>PostgreSQL</li>
-					<li>Django</li>
-					<li>MongoDB</li>
+			<div class="content-page">
+				<div class="top-spiral"></div>
+				<div class="bottom-spiral"></div>
+				<!--
+				<div id="cform">
+					<div class="row"></div>
+					<h3>Get in touch with us:</h3>
+					<div class="form-wrapper in-touch">
+						<div id="message"></div>
+						<form method="post" action="php/contact.php" name="contactform" id="contactform">
+							<input type="text" name="name" placeholder="Name" id="name" />
+							<input type="text" name="email" placeholder="Email" id="email" />
+							<input type="text" name="phone" placeholder="Phone" id="phone" />
+							<input type="text" name="subject" placeholder="Subject" id="subject" />
+							<textarea placeholder="Message" name="comments" id="comments"></textarea>
+							<div id="captcha">
+								<span>3+1=</span>
+								<input type="text" name="verify" id="verify" />
+							</div><!--end verify-->
+
+<!-- You can stylize the submit button by changing its color. To do this, replace the 'orange' from class="orange" with: yellow, red, purple, green, blue, darkblue, white and black.							
+							<input type="submit" name="send" value="SEND" id="submit" class="orange" /> 
+						</form>
+					</div><!--end form-wrapper
+				</div><!--end cform
+				-->
+			
+				<div id="home">
+					<div class="row"></div>
+					<h2>We're currently under construction!</h2>					
+					<div class="row"></div>
+					<div class="row"></div>
+					<div class="row"></div>
+					<h3>We`re working hard and believe we`ll launch the website in:</h3>
+					
+					<div id="countdown"></div>	
+					<div class="clear"></div>
+					<div class="row"></div>
+					<!--
+					<div class="form-wrapper email-list">
+						<div id="mesaj"></div>
+						<form id="subscribe" method="post" action="php/subscribe.php" name="subscribe">
+							<input type="text" id="semail" name="YourEmail" placeholder="Subscribe to our email list" />
+
+<!-- You can stylize the submit button by changing its color. To do this, replace the 'orange' from class="orange" with: yellow, red, purple, green, blue, darkblue, white and black.								
+							<input type="submit" id="ssubmit" name="subscribe" value="SUBSCRIBE" class="orange" />
+						</form>
+					</div><!--end form-wrapper
+					-->
+				</div><!--end home-->
+				
+			</div><!--end content-page-->
+			
+			<div class="bottom-page">
+			    <!--
+				<ul class="social">
+				<!-- Change the # with the link to your social page. -->
+					<li><a class="facebook tooltip" href="#" title="Facebook"></a></li>
+					<li><a class="twitter tooltip" href="#" title="Twitter"></a></li>
+					<li><a class="youtube tooltip" href="#" title="YouTube"></a></li>
+					<li><a class="skype tooltip" href="#" title="Skype"></a></li>
+					<li><a class="dribbble tooltip" href="#" title="Dribbble"></a></li>	
+					
+<!-- You can add to social list buttons for digg, delicious, vimeo and dropbox. Just delete the brackets from below
+			<!--	<li><a class="digg tooltip" href="#" title="Digg"></a></li>
+					<li><a class="delicious tooltip" href="#" title="Delicious"></a></li>
+					<li><a class="vimeo tooltip" href="#" title="Vimeo"></a></li>
+					<li><a class="dropbox tooltip" href="#" title="DropBox"></a></li>		
+			
 				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1 id="education"></h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>Universidad Tecnologíca de la Riviera Maya</h2>
-					<p class="subDetails" id="degree"></p>
-					<p id="grad"></p>
-				</article>
-				<article>
-					<h2>MongoDB for Developers (Python, .NET)</h2>
-					<p class="subDetails" id="degree2"></p>
-					<p id="grad2"></p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		<section>
-			<div class="sectionTitle">
-				<h1 id="languajes"></h1>
-			</div>
-			
-			<div class="sectionContent">
-				<ul class="keySkills">
-				    <li id="spanish"></li>
-				    <li id="english"></li>
-				    <li>&nbsp;</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Portafolio</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-				    <p id="mywork"></p>
-				    <ul class="portafolio">
-				        <li><a href="http://mercadojobs.com">Mercadojobs</a></li>
-				        <li><a href="http://casifree.com">Casifree</a></li>
-				        <li><a href="http://caribephoto.com">Caribephoto</a></li>
-				        <li><a href="http://matiascano.com">Matias Cano Photographer</a></li>
-				        <li><a href="http://rener-solar.com">Rener Solar</a></li>
-				        <li><a href="http://www.topmexicorealestate.com/playadelcarmen-real-estate/LP/playadelcarmen-condos.php">Viliv Condos</a></li>
-				        <li><a href="http://www.topmexicorealestate.com/playadelcarmen-real-estate/LP/playadelcarmen-condos.php">Papaya Plus Condos</a></li>
-				        <li><a href="http://www.topmexicorealestate.com/mexican-retirement-community/">La Escondida Condos & Villas</a></li>
-				    </ul>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-	</div>
-</div>
-<!--
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3753241-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
--->
-</body>
+				-->
+			</div><!--end bottom-page-->
+		</div><!--end book-->
+	</div><!--end wrapper-->
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>	<!-- placeholder html5 tag support for IE and Old Browsers -->
+</body> 
 </html>
+
