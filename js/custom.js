@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 //cowntdown function. Set the date by modifying the date in next line (January 01, 2013 00:00:00):
-		var austDay = new Date("January 02, 2017 12:00:00");
+		var austDay = new Date("February 20, 2017 12:00:00");
 			$('#countdown').countdown({until: austDay, layout: '<div class="item"><p>{dn}</p> <span>-{dl}-</span></div> <div class="item"><p>{hn}</p> <span>-{hl}-</span></div> <div class="item"><p>{mn}</p> <span>-{ml}-</span></div> <div class="item"><p>{sn}</p> <span>-{sl}-</span></div>'});
 			$('#year').text(austDay.getFullYear());
 
