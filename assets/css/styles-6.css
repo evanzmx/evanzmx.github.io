@@ -256,6 +256,17 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+
+.btnlang{
+  background: #4B6A78;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  top: -60px;
+  left: 90%;
+  border-radius: 0;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -272,6 +283,10 @@ p {
   }
   .main-wrapper .upper-row {
     margin-bottom: 0;
+  }
+
+  .btnlang{
+    top: -30px;
   }
 }
 /* Small devices (tablets, 768px and up) */
@@ -290,6 +305,8 @@ p {
     position: relative;
     top: 1px;
   }
+
+
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */

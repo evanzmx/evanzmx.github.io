@@ -8,8 +8,10 @@ $(function(){
     $("#btnlang").click(function (e) {
         if (localStorage.languaje == 'SPA') {
             localStorage.languaje = 'ENG';
+            $().text('ES');
         } else {
             localStorage.languaje='SPA';
+            $().text("EN");
         }
         getContent();
     });
