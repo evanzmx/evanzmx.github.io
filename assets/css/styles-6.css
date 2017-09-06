@@ -263,8 +263,9 @@ p {
   font-weight: bold;
   position: relative;
   top: -60px;
-  left: 90%;
+  left: 75%;
   border-radius: 0;
+  width: 147px;
 }
 
 /* Extra small devices (phones, less than 768px) */
