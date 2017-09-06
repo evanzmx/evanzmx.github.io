@@ -311,5 +311,13 @@ p {
 
 
 }
+
+/*Extra EXTRA small devices */
+@media (max-width: 510px) {
+  .btnlang{
+    top: -30px;
+    left: 50%;
+  }
+}
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
