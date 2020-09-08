@@ -3,8 +3,8 @@ $(function(){
         //Setting default languaje as Spanish
         localStorage.languaje = 'ENG';
         $("#btn_download").attr({
-            href: 'Oscar_Cruz_CV.pdf',
-            title: 'Oscar Cruz CV'
+            href: 'Oscar_Cruz_Resume.pdf',
+            title: 'Oscar Cruz Resume'
         });
         $("#btn_download").text('Descarga una versión PDF.');
     }else if (localStorage.languaje == 'SPA') {
