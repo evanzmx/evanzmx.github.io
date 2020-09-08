@@ -1,6 +1,6 @@
 {
     "SPA": {
-        "occupation" : "Desarrollador Web",
+        "occupation" : "Desarrollador/Ing. Soporte",
         "profile" : "<i class='fa fa-user'></i>Perfil Profesional",
         "profile_text" : "Soy un desarrollador web que disfruta mucho su trabajo, en los 7 años de experiecia que tengo he aprendido algunas tecnicas y frameworks que me han ayudado a desarrollar sitios web tanto comerciales como administrativos.",
         "experience" : "<i class='fa fa-briefcase'></i>Experiencia",
@@ -45,7 +45,7 @@
         "int3" : "Música"
     },
     "ENG":{
-        "occupation" : "Web Developer",
+        "occupation" : "Developer/Support Eng.",
         "profile" : "<i class='fa fa-user'></i>Career Profile",
         "profile_text" : "I'm a web developer who enjoys his work, I have 7 years of experience and I've learned some techniques and frameworks that has helped me to develop web sites for management and commercial use.",
         "experience" : "<i class='fa fa-briefcase'></i>Experience",
