@@ -1,7 +1,7 @@
 $(function(){
     if(localStorage.languaje === undefined){
         //Setting default languaje as Spanish
-        localStorage.languaje = 'SPA';
+        localStorage.languaje = 'ENG';
         $("#btn_download").attr({
             href: 'Oscar_Cruz_CV.pdf',
             title: 'Oscar Cruz CV'
