@@ -6,7 +6,7 @@ $(function(){
             href: 'Oscar_Cruz_Resume.pdf',
             title: 'Oscar Cruz Resume'
         });
-        $("#btn_download").text('Descarga una versión PDF.');
+        $("#btn_download").text('Download a PDF version.');
     }else if (localStorage.languaje == 'SPA') {
         $("#btn_download").attr({
             href: 'Oscar_Cruz_CV.pdf',
