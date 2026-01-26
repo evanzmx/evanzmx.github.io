@@ -1,12 +1,12 @@
 $(function(){
     if(localStorage.languaje === undefined){
-        //Setting default languaje as Spanish
-        localStorage.languaje = 'SPA';
+        //Setting default languaje as English
+        localStorage.languaje = 'ENG';
         $("#btn_download").attr({
-            href: 'Oscar_Cruz_CV.pdf',
-            title: 'Oscar Cruz CV'
+            href: 'Oscar_Cruz_Resume.pdf',
+            title: 'Oscar Cruz Resume'
         });
-        $("#btn_download").text('Descarga una versión PDF.');
+        $("#btn_download").text('Download a PDF version.');
     }else if (localStorage.languaje == 'SPA') {
         $("#btn_download").attr({
             href: 'Oscar_Cruz_CV.pdf',

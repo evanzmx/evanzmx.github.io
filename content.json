@@ -2,7 +2,7 @@
     "SPA": {
         "occupation" : "Desarrollador/Ing. Soporte",
         "profile" : "<i class='fa fa-user'></i>Perfil Profesional",
-        "profile_text" : "Soy un desarrollador web que disfruta mucho su trabajo, en los 7 años de experiecia que tengo he aprendido algunas tecnicas y frameworks que me han ayudado a desarrollar sitios web tanto comerciales como administrativos.",
+        "profile_text" : "Soy un desarrollador web que disfruta mucho su trabajo, en los 15 años de experiecia que tengo he aprendido algunas tecnicas y frameworks que me han ayudado a desarrollar sitios web tanto comerciales como administrativos.",
         "experience" : "<i class='fa fa-briefcase'></i>Experiencia",
         "job0" : "Ericsson",
         "date0" : "Agosto 2015 - Presente",
@@ -47,12 +47,12 @@
     "ENG":{
         "occupation" : "Developer/Support Eng.",
         "profile" : "<i class='fa fa-user'></i>Career Profile",
-        "profile_text" : "I'm a web developer who enjoys his work, I have 7 years of experience and I've learned some techniques and frameworks that has helped me to develop web sites for management and commercial use.",
+        "profile_text" : "I'm a web developer who enjoys his work, I have 15 years of experience and I've learned some techniques and frameworks that has helped me to develop web sites for management and commercial use.",
         "experience" : "<i class='fa fa-briefcase'></i>Experience",
         "job0" : "Ericsson",
         "date0" : "August 2015 - Present",
         "role0" : "CNS - Support Engineer",
-        "jobdesc0" : "My main activities consists in developing internal tools for handling/traciking tickets, at the same time I develop monitoring applications and data analysis, additionally I implement CICD pipelines to deploy code changes automatically. Nowdays I'm assigned to support contracts with USA and Canada customers.",
+        "jobdesc0" : "My main activities consists in developing internal tools for handling/traciking usecase development, at the same time I develop monitoring applications and data analysis, additionally I implement CICD pipelines to deploy code changes automatically.",
         "job1" : "TopMexicoRealEstate",
         "date1" : "August 2009 - September 2011",
         "jobdesc1" : "I was in charge to carry out the SEO tasks for TopMexicoRealEstate websites ad check their positions on the biggest search engines. After that I went to the design area, where I created some banners and landing pages for some projects. Finally I went to the develop area where I was in charge to develop some backend modules for TopMexicoRealEstate websites.",
